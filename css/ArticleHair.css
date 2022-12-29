@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+width: 100%;
+height: 50px;
+padding: 0;
+background-color: #2e2d2c;
+}
+
+
+
+.cabinet{
+
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    letter-spacing: 2px;
+    margin: 0 34px 0 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: fixed;
+    
+    
+    right: 50px;
+    float: right;
+    
+  }
+
+  .logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    position: absolute;
+  
+    margin-top: 8px;
+    width: 400px;
+    color: #eb8f20f4;
+    padding-left: 50px;
+  }
+
+
+  .reg, .log-in, .card {
+    margin: 0;
+    padding: 16px;
+    border: 2px solid rgb(227, 151, 70);
+    border-radius: 0 0 20px 20px;
+    background-color: #12110f68 ;
+    color: rgb(95, 122, 122);
+    text-decoration: none;
+  
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin:  0 10px;
+  padding: 5px 0 5px;
+  text-align: center;
+  background: rgb(248, 244, 244);
+  
+  
+  
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #1b1a1a;
+  display: inline-block;
+  vertical-align:top;
+
+  
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, ;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px 0 0 20px;
+  margin: 0 34px 0 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #100510;}
+.menu-main a.current, .menu-main a:hover{color: #feb386;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+.clearfix {
+    clear: both;
+  }
+
+  .nav-menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  .left-site-bar{
+    width: 200px;
+    min-height: 700px;
+    margin: 15px;
+    background-color: rgb(248, 244, 244);
+    border: 1px solid rgb(200, 184, 184);
+    border-radius: 20px;
+    position: absolute;
+    
+    
+  }
+
+  .cat {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    text-decoration-line: none;
+    
+  }
+
+  .cat a, .brands a{
+    text-decoration: none;
+    color: rgb(44, 54, 54);
+  
+    
+    
+  }
+
+  .brands{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+  
+  }
+
+ .section, h5 {
+  text-align:center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.section, li {
+  padding: 15px;
+}
+
+.main-window{
+  width: 100%;
+  height: 800px;
+
+  background-color: rgb(247, 240, 240);
+}
+
+
+.shampo-1{
+  position: relative;
+  left: 335px;
+  top: 50px;
+  
+  
+}
+
+.shampo-2{
+  position: relative;
+  left: 400px;
+  top: 50px;
+}
+
+.shampo-3{
+  position: relative;
+  left: 465px;
+  top: 50px;
+}
+
+.shampo-4{
+  position: relative;
+  left: 525px;
+  top: 50px;
+}
+
+/*goods*/
+
+.goods-place{
+  display:flex;
+  background-color: #fff;
+  width: 150px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px rgb(83, 77, 77);
+ margin: 20%;
+  margin-top: 15px;
+
+
+}
+
+.card-img{
+  
+  height: 150px;
+  
+}
+
+
+.card-title{
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card-sub{
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 20px;
+
+}
+
+
+.btn-keeper{
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.btn-buy{
+  background-color: rgb(206, 119, 53);
+  border-radius: 10px;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.5s linear ;
+  
+}
+
+.btn-buy:hover  {
+  background-color: green;
+  
+}
+
+.price-value{
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  color: rgb(213, 94, 20);
+}
+
+

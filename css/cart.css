@@ -1,0 +1,58 @@
+body {
+font-family: sans-serif;
+background-color: #eee;
+}
+
+.card-goods{
+    background-color: #fff;
+    width: 220px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px rgb(83, 77, 77);
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.card-title{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-sub{
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+
+.btn-keeper{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.btn-buy{
+    background-color: rgb(206, 119, 53);
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s linear ;
+    
+}
+
+.btn-buy:hover  {
+    background-color: green;
+    
+}
+
+.price-value{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(213, 94, 20);
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="UA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caramel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Inter:wght@400;700;800&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+   <header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top--position">
+                <div class="header__logo">
+                    <a href="./index.html" class="header__logo--link"><em>Etude Beauty Boutique</em></a>
+                </div>
+                <div class="header__search">
+                    <button class="header__button">
+                        <svg class="header__button--img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path d="M23.111 20.058l-4.977-4.977c.965-1.52 1.523-3.322 1.523-5.251 0-5.42-4.409-9.83-9.829-9.83-5.42 0-9.828 4.41-9.828 9.83s4.408 9.83 9.829 9.83c1.834 0 3.552-.505 5.022-1.383l5.021 5.021c2.144 2.141 5.384-1.096 3.239-3.24zm-20.064-10.228c0-3.739 3.043-6.782 6.782-6.782s6.782 3.042 6.782 6.782-3.043 6.782-6.782 6.782-6.782-3.043-6.782-6.782zm2.01-1.764c1.984-4.599 8.664-4.066 9.922.749-2.534-2.974-6.993-3.294-9.922-.749z"/></svg>
+                    </button>
+                    <input type="text" placeholder="Пошук по сайту" class="header__input">
+                    <ul class="header__list">
+                        <li class="header__list--item"><a href="#" class="header__list--link">Реєстрація</a></li>
+                        <li class="header__list--item"><a href="#" class="header__list--link">Вхід</a></li>
+                        <li class="header__list--item"><a href="/components/basket.html" class="header__list--link">Кошик</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="header__nav">
+        <ul class="header__nav--list">
+            <li class="header__nav--item"><a href="./index.html" class="header__nav--link current">Головна</a></li>
+            <li class="header__nav--item"><a href="./components/articleHair.html" class="header__nav--link ">Догляд за волоссям</a></li>
+            <li class="header__nav--item"><a href="./components/artickleFace.html" class="header__nav--link">Догляд за обличчям</a></li>
+            <li class="header__nav--item"><a href="./components/artickleNails.html" class="header__nav--link">Манікюр</a></li>
+            <li class="header__nav--item"><a href="./components/artickleParfume.html" class="header__nav--link">Парфуми</a></li>
+            <li class="header__nav--item"><a href="./components/artickleVitamine.html" class="header__nav--link">Вітаміни</a></li>
+        </ul>
+    </nav>
+    <div class="header__bottom">
+        <h1 class="header__bottom--logo">
+            <p class="header__bottom--etude">Etude</p>
+            <p class="header__bottom--beauty">Beauty Boutique</p>
+        </h1>
+    </div>
+   </header>
+   <main class="main">
+    <section class="topSeller">
+        <h2 class="topSeller__title">top seller</h2>
+        <div class="topSeller__wrapper">
+        <button class="topSeller__controls" id="btnPrev"><svg class="topSeller__controls--arrow arrow-left" viewbox="0 0 5 9">
+            <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" />
+        </svg></button>
+        <div class="topSeller__slider" id="slider">
+            <div class="topSeller__slider--wrapper">
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="topSeller__slider--wrapper">
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Eskiz.png" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="topSeller__slider--wrapper">
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Samp_Mild_Nature.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+                <div class="section__card">
+                    <div class="section__card--iner">
+                      <img src="img/Shampo_Haden.jfif" alt="" class="section__card--img">
+                      <p class="section__card--line"></p>
+                      <h3 class="section__card--title">head and shoulders</h3>
+                      <p class="section__card--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti veritatis nostrum amet labore cumque animi nemo aperiam, tempora itaque.</p>
+                      <p class="section__card--price">₴ 23.33</p>
+                      <button class="section__card--button">Купити</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <button class="topSeller__controls" id="btnNext"><svg class="topSeller__controls--arrow" viewbox="0 0 5 9">
+                <path d="M0.419,9.000 L0.003,8.606 L4.164,4.500 L0.003,0.394 L0.419,0.000 L4.997,4.500 L0.419,9.000 Z" />
+            </svg></button>
+            </div>
+    </section>
+   </main>
+   <footer class="footer">
+
+   </footer>
+</body>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
+</html>

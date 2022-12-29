@@ -1,0 +1,170 @@
+[
+    {
+        "id": "01",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "02",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/54MasilMask.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 1500.00 грн."
+    },
+    {
+        "id": "03",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 1600.00 грн."
+    },
+    {
+        "id": "04",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 1070.00 грн."
+    },
+    {
+        "id": "05",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 1200.00 грн."
+    },
+    {
+        "id": "06",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "07",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "08",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "09",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "10",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "11",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "12",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "13",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "14",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "15",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "16",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "17",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "18",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "19",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "20",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    },
+    {
+        "id": "22",
+        "class": "shampoo",
+        "imgSrc": "../img/Hair/50MildCitrus.jpg",
+        "title": "Mild by Nature, Citrus",
+        "description": "Шампунь із комплексом вітамінів групи В та біотином для густоти волосся, без сульфатів, цитрусові, 473 мл",
+        "price":" 100.00 грн."
+    }
+]
