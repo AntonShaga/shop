@@ -130,7 +130,39 @@ body {
   left: -2px;
 }
 
+.basket {
+  margin-bottom: 70px;
+}
 
+.basket__card {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.basket__card:last-child {
+  margin-bottom: 0;
+}
+
+.basket__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.basket__card--img {
+  width: 150px;
+  height: 150px;
+}
+
+.basket__card--button {
+  align-self: center;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #feb386;
+}
 
 .footer {
   height: 300px;
